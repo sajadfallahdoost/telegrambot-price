@@ -4,6 +4,7 @@ from rest_framework import status
 from bot_app.api.serializers import MessageSerializer
 from bot_app.logic.telegram_client import TelegramClient
 
+
 @api_view(['POST'])
 def send_message_view(request):
     serializer = MessageSerializer(data=request.data)
