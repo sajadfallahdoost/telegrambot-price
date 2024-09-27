@@ -124,4 +124,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Telegram settings
-TELEGRAM_BOT_TOKEN = '7691361990:AAFVDe4xTkdfJfTnV9fO4hupSA1EsUZHPNI'
+TELEGRAM_BOT_TOKEN = ''
